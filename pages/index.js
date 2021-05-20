@@ -88,7 +88,7 @@ const Home = () => {
                 {todo.task}
               </span>
               <span className={styles.edit}>
-                <Link href="/todo/[id]" as={`/todo/${todo._id}`}>
+                <Link href={`/todo/${todo._id}`}>
                   <a>Edit</a>
                 </Link>
               </span>
